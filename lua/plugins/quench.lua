@@ -1,0 +1,37 @@
+return {}
+-- return {
+--   "ryan-ressmeyer/quench.nvim",
+--   lazy = false, -- Load on startup
+--   opts = {
+--     web_server = {
+--       host = "127.0.0.1", -- Default: localhost only
+--       port = 8765, -- Default: 8765
+--       autostart_server = true, -- Default: true (auto-start on Neovim launch)
+--     },
+--     -- Optional: customize cell delimiter pattern (default: r'^#+\s*%%')
+--     -- cell_delimiter = "^#%%",
+--   },
+--   keys = {
+--     -- Cell execution
+--     { "<leader>n", "<Cmd>QuenchRunCellAdvance<CR>", desc = "Run Cell and Advance" },
+--     { "<leader>m", "<Cmd>QuenchRunCell<CR>", desc = "Run Cell" },
+--     { "<leader>ql", "<Cmd>QuenchRunLine<CR>", desc = "Run Line" },
+--     { "<leader>qv", "<Cmd>QuenchRunSelection<CR>", mode = "v", desc = "Run Selection" },
+--     { "<leader>qa", "<Cmd>QuenchRunAll<CR>", desc = "Run All Cells" },
+--     { "<leader>qu", "<Cmd>QuenchRunAbove<CR>", desc = "Run Above" },
+--     { "<leader>qd", "<Cmd>QuenchRunBelow<CR>", desc = "Run Below" },
+--
+--     -- Kernel management
+--     { "<leader>qr", "<Cmd>QuenchResetKernel<CR>", desc = "Reset Kernel" },
+--     { "<leader>qi", "<Cmd>QuenchInterruptKernel<CR>", desc = "Interrupt Kernel" },
+--     { "<leader>qn", "<Cmd>QuenchStartKernel<CR>", desc = "Start Kernel" },
+--     { "<leader>qk", "<Cmd>QuenchShutdownKernel<CR>", desc = "Shutdown Kernel" },
+--     { "<leader>qs", "<Cmd>QuenchSelectKernel<CR>", desc = "Select Kernel" },
+--
+--     -- Status and debugging
+--     { "<leader>qS", "<Cmd>QuenchStatus<CR>", desc = "Quench Status" },
+--     { "<leader>qx", "<Cmd>QuenchStop<CR>", desc = "Stop Quench" },
+--     { "<leader>qD", "<Cmd>QuenchDebug<CR>", desc = "Debug Quench" },
+--     { "<leader>qo", "<Cmd>QuenchOpen<CR>", desc = "Open Web Interface" },
+--   },
+-- }
