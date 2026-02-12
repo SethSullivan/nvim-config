@@ -9,5 +9,7 @@ return {
     vim.g.vimtex_compiler_latexmk_engines = {
       _ = "-xelatex",
     }
+    vim.g.vimtex_syntax_conceal_disable = 1
+    vim.g.vimtex_indent_enabled = 1
   end,
 }
