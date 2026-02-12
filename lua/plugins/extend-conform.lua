@@ -4,6 +4,8 @@ return {
     formatters_by_ft = {
       sql = { "sqlfluff" },
       pgsql = { "sqlfluff" },
+      tex = { "latexindent" },
+      python = { "ruff_format" },
     },
     formatters = {
       sqlfluff = {
