@@ -5,3 +5,4 @@ require("config.keymaps")
 require("config.autocmds")
 vim.diagnostic.enable(true)
 vim.lsp.inlay_hint.enable(false)
+vim.g.sql_type_default = "pgsql"
